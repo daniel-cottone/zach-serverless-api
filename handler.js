@@ -1,11 +1,14 @@
 'use strict';
+import * as _ from 'lodash';
 
 module.exports.hello = (event, context, callback) => {
+  const testArr = _.chunk(['a', 'b', 'c', 'd'], 2);
   const response = {
     statusCode: 200,
     body: JSON.stringify({
       message: 'Go Serverless v1.0! Your function executed successfully!',
       input: event,
+      testArr
     }),
   };
 

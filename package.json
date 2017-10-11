@@ -2,7 +2,9 @@
   "name": "serverless-api",
   "version": "1.0.0",
   "description": "Serverless API project",
-  "scripts": {
-  },
-  "author": "Zach Leaver"
+  "scripts": {},
+  "author": "Zach Leaver",
+  "dependencies": {
+    "lodash": "~4.17.4"
+  }
 }
