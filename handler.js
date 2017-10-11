@@ -1,5 +1,5 @@
 'use strict';
-import * as _ from 'lodash';
+const _ = require('lodash');
 
 module.exports.hello = (event, context, callback) => {
   const testArr = _.chunk(['a', 'b', 'c', 'd'], 2);
