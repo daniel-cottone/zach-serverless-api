@@ -1,0 +1,8 @@
+{
+  "name": "serverless-api",
+  "version": "1.0.0",
+  "description": "Serverless API project",
+  "scripts": {
+  },
+  "author": "Zach Leaver"
+}
